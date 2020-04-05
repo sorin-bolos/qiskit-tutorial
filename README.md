@@ -1,47 +1,69 @@
+# Qiskit IQX Tutorials
 
-<img src="images/qiskit-heading.gif" >
+[![License](https://img.shields.io/github/license/Qiskit/qiskit-iqx-tutorials.svg?style=popout-square)](https://opensource.org/licenses/Apache-2.0)[![](https://img.shields.io/github/release/Qiskit/qiskit-iqx-tutorials.svg?style=popout-square)](https://github.com/Qiskit/qiskit-iqx-tutorials/releases)
 
-***
+Welcome to the [Qiskit](https://www.qiskit.org/) IQX Tutorials!
 
+In this repository, we've put together a collection of Jupyter notebooks aimed
+at teaching people who want to use Qiskit for writing quantum computing
+programs, and executing them on one of several backends (online quantum
+processors, online simulators, and local simulators). The online quantum
+processors are the [IBM Q](https://quantum-computing.ibm.com) devices.
 
-# QISKit Tutorials
+For our community-contributed tutorials, please check out the
+[qiskit-community-tutorials](https://github.com/Qiskit/qiskit-community-tutorials)
+repository.
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/QISKit/qiskit-tutorial/master?filepath=index.ipynb)
+## Installation
 
+The notebooks for these tutorials can be viewed here on GitHub...but for the
+full experience, you'll want to interact with them!  The easiest way to do this
+is by logging into the [IBM Quantum
+Experience](https://quantum-computing.ibm.com/), which lets you use Jupyter
+notebooks, including these tutorials, via the web.
 
-Welcome to the Quantum Information Science Kit ([QISKit](https://www.qiskit.org/) for short) tutorials!
-
-In this repository, we've put together a collection of Jupyter notebooks aimed at teaching people who want to use the QISKit for writing quantum computing programs and executing them on one of several backends (online quantum processors, online simulators, and local simulators). The online quantum processors connects to the [IBM Q](https://quantumexperience.ng.bluemix.net/qx/devices) devices.
-
-## Installation and Setup
-Please refer to this [installation](INSTALL.md) for installing and setting up QISKit and tutorials on your own machine.
-
-You can also run the tutorials online without installation on the [IBM Data Science Experience](https://datascience.ibm.com/) following the instructions in this [notebook](DSX.ipynb).
-
-***
+Please refer to this [installation guide](INSTALL.md) for setting up Qiskit and
+the tutorials on your own machine (this is the recommended way).
 
 ## Contents
-We have organized the tutorials into three sections:
 
-### 1. [Hello, Quantum World](hello_world/)
-Since quantum computing is new to most users, we want to find the best *Hello Quantum World* program and welcome submissions here. 
+We've collected a core reference set of notebooks in this section outlining the
+features of Qiskit. We will be keeping them up to date with the latest Qiskit
+version.
 
-### 2. [Reference](reference/)<a id='reference'></a>
-We've collected a core reference set of notebooks in this section. These notebooks demonstrate how to use QISKit and explore quantum information science, acting as a reference guide for QISKit. We will be keeping them up to date with the latest QISKit version, currently 0.5.  
+- [Basics](qiskit/fundamentals) is for those who are getting started.
+- [Terra](qiskit/advanced/terra) is for those who want to study circuits.
+- [Aer](qiskit/advanced/aer) is for those who want to simulate quantum circuits.
+- [Ignis](qiskit/advanced/ignis) is for those who want to study noise.
+- [Aqua](qiskit/advanced/aqua) is for those who want to develop applications on noisy quantum devices.
 
-### 3. [Appendix](appendix)<a id='appendix'></a>
-This is where the rest of the tutorials are. They are not guaranteed to work with the latest version of QISKit, but we will do our best. 
-***  
+To go through the Qiskit examples, load up the
+[start_here.ipynb](qiskit/1_start_here.ipynb) notebook and start seeing how
+Qiskit works.
 
-## Contributing
-If you would like to contribute to the tutorials, there are a number of ways to get involved:
+## Contribution Guidelines
 
-* **Issues**: Issues can be reported with GitHub [issue reporting](https://github.com/QISKit/qiskit-tutorial/issues) for this repository. Select `New issue`, fill in a descriptive title, and provide as much detail as is needed for the issue to be reproduced.
-* **Notebooks**: If you would like to contribute a notebook, please create a [fork](https://help.github.com/articles/fork-a-repo/) of the repository from the `master` branch and create a [pull request](https://help.github.com/articles/about-pull-requests/) for your change. Note that new notebooks should be placed in the relevant part of the [Appendix](appendix) section. We will discuss in the [Slack channel](https://qiskit.slack.com/messages/C7SN3T90V) which of these should be in the [Reference](reference) section.
+If you'd like to contribute to Qiskit IQX Tutorials, please take a look at our
+[contribution guidelines](.github/CONTRIBUTING.md). This project adheres to
+Qiskit's [code of conduct](.github/CODE_OF_CONDUCT.md). By participating, you
+are expect to uphold to this code.
 
-## Contributors
-An alphabetical list of contributors can be found [here](CONTRIBUTORS.md). If you have contributed to these tutorials, please include your name there.
+We use [GitHub issues](https://github.com/Qiskit/qiskit-iqx-tutorials/issues) for
+tracking requests and bugs. Please use our [Slack](https://qiskit.slack.com)
+for discussion and simple questions. To join our Slack community, use the
+[link](https://join.slack.com/t/qiskit/shared_invite/enQtODQ2NTIyOTgwMTQ3LTI0NzM2NzkzZjJhNDgzZjY5MTQzNDY3MGNiZGQzNTNkZTE4Nzg1MjMwMmFjY2UwZTgyNDlmYWQwYmZjMjE1ZTM).
+For questions that are more suited for a forum, we use the Qiskit tag in the
+[Stack
+Exchange](https://quantumcomputing.stackexchange.com/questions/tagged/qiskit).
+
+## Authors and Citation
+
+Qiskit IQX Tutorials is the work of [many
+people](https://github.com/Qiskit/qiskit-iqx-tutorials/graphs/contributors) who
+contribute to the project at different levels. If you use Qiskit, please cite
+as per the included [BibTeX
+file](https://github.com/Qiskit/qiskit/blob/master/Qiskit.bib).
 
 ## License
-This project is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/QISKit/qiskit-tutorial/blob/master/LICENSE) file for details.
+
+[Apache License 2.0](LICENSE)
